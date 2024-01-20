@@ -1,0 +1,30 @@
+<div class="main users-edit">
+    <div class="container">
+        <div class="form-heading">プロフィール編集</div>
+            <% @user.errors.full_message.each do |message| %>
+                <div class="alert alert-danger" role="alert">
+                    <%= message %>
+                </div>
+            <% end %>
+            <div class="form users-form">
+                <div class="form-body">
+                    <%= form_tag("/users/#{@user.id}/update", {multipart: true}) do %>
+                        <div class="mb-3 border-bottom border-primary-bg-subtle ">
+                            <label for="name" class="form-label">名前</label>
+                            <input type="text" id="name" class="form-control" value="<%= @user.name %>" />
+                        </div>
+                        <div class="mb-3 border-bottom border-primary-bg-subtle">
+                            <label for="profile_image" class="form-label">プロフィール画像</label>
+                            <input type="file" class="form-control" id="profile_image" value="<%= @user.profile_image %>"/>
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="introduction" class="form-label">自己紹介文</label>
+                            <textarea class="form-control border border-primary" id="introduction" rows="3"><%= @user.introduction %></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">保存する</button>
+                    <% end %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
