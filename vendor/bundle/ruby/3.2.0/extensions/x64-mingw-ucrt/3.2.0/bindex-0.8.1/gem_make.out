@@ -1,0 +1,19 @@
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240120-788-o3onzx sitelibdir\=./.gem.20240120-788-o3onzx clean
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240120-788-o3onzx sitelibdir\=./.gem.20240120-788-o3onzx
+generating cruby-x64-mingw-ucrt.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240120-788-o3onzx sitelibdir\=./.gem.20240120-788-o3onzx install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240120-788-o3onzx/skiptrace/internal
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240120-788-o3onzx sitelibdir\=./.gem.20240120-788-o3onzx clean

@@ -1,0 +1,42 @@
+<div id="<%= dom_id book %>">
+  <p>
+    <strong>Book title:</strong>
+    <%= book.book_title %>
+  </p>
+
+  <p>
+    <strong>Book image:</strong>
+    <%= image_tag(book.book_image_url, width: '600px') if book.book_image.present? %>
+  </p>
+
+  <p>
+    <strong>Comment:</strong>
+    <%= book.comment %>
+  </p>
+
+  <p>
+    <strong>Author:</strong>
+    <%= book.author %>
+  </p>
+
+  <p>
+    <strong>Publication date:</strong>
+    <%= book.publication_date %>
+  </p>
+
+  <p>
+    <strong>Genre:</strong>
+    <%= book.genre %>
+  </p>
+
+  <p>
+    <strong>Short comment:</strong>
+    <%= book.short_comment %>
+  </p>
+
+  <p>
+    <strong>Favorite sentence:</strong>
+    <%= book.favorite_sentence %>
+  </p>
+
+</div>
