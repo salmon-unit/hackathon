@@ -1,0 +1,19 @@
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240120-26960-iaa1um sitelibdir\=./.gem.20240120-26960-iaa1um clean
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240120-26960-iaa1um sitelibdir\=./.gem.20240120-26960-iaa1um
+generating cparse-x64-mingw-ucrt.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240120-26960-iaa1um sitelibdir\=./.gem.20240120-26960-iaa1um install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240120-26960-iaa1um/racc
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240120-26960-iaa1um sitelibdir\=./.gem.20240120-26960-iaa1um clean
