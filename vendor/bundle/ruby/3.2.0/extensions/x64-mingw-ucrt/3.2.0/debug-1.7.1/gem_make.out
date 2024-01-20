@@ -1,0 +1,20 @@
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/debug-1.7.1/ext/debug
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-3160-peiufv sitelibdir\=./.gem.20240120-3160-peiufv clean
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-3160-peiufv sitelibdir\=./.gem.20240120-3160-peiufv
+generating debug-x64-mingw-ucrt.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-3160-peiufv sitelibdir\=./.gem.20240120-3160-peiufv install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240120-3160-peiufv/debug
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-3160-peiufv sitelibdir\=./.gem.20240120-3160-peiufv clean
