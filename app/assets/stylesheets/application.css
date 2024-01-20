@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+/* 以下是您的自定义样式 */
+/* app/assets/stylesheets/application.css */
+
+/* ... 其他样式 ... */
+
+/* Blue header section with padding and margin */
+.header-section {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff; /* White text */
+    padding: 2rem 0; /* Padding on top and bottom */
+    margin-bottom: 2rem; /* Space below the header */
+  }
+  
+  /* Style for login and sign up buttons */
+  .user-actions .btn {
+    color: #ffffff; /* White text */
+    background-color: #6c757d; /* Bootstrap secondary color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 2rem; /* Padding inside buttons */
+    margin-right: 0.5rem; /* Space between buttons */
+  }
+  
+  /* Remove right margin from the last button */
+  .user-actions .btn:last-child {
+    margin-right: 0;
+  }
+  
+  /* ... 其他样式 ... */
+  
