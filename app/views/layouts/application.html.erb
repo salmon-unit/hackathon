@@ -12,15 +12,12 @@
 
   <body>
 
-    <li>
-      <% if current_user.present? %>
-        <%= current_user.email %>
-      <% end %>
-    </li>
+    
+    <% if current_user.present? %>
+      <%= current_user.email %>
+    <% end %>
 
-    <span>
-      <%= button_to "ログアウト", destroy_user_session_path, method: :delete, data: { turbo: false } %>
-    </span>
+    <%= button_to "ログアウト", destroy_user_session_path, method: :delete, data: { turbo: false } %>
 
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
