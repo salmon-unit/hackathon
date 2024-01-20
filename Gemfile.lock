@@ -277,6 +277,7 @@ DEPENDENCIES
   mini_magick (~> 4.11.0)
   puma (~> 5.0)
   rails (~> 7.0.8)
+  sassc-rails
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
