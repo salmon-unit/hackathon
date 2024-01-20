@@ -1,0 +1,25 @@
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-9m562d sitelibdir\=./.gem.20240120-18360-9m562d clean
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-9m562d sitelibdir\=./.gem.20240120-18360-9m562d
+generating console-x64-mingw-ucrt.def
+compiling console.c
+linking shared-object io/console.so
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-9m562d sitelibdir\=./.gem.20240120-18360-9m562d install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240120-18360-9m562d/io
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-9m562d sitelibdir\=./.gem.20240120-18360-9m562d clean

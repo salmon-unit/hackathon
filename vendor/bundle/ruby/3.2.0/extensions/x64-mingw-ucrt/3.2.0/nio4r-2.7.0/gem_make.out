@@ -1,0 +1,18 @@
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-pk422f sitelibdir\=./.gem.20240120-18360-pk422f clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-pk422f sitelibdir\=./.gem.20240120-18360-pk422f
+make: 'all' に対して行うべき事はありません.
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-pk422f sitelibdir\=./.gem.20240120-18360-pk422f install
+make: 'install' に対して行うべき事はありません.
+
+current directory: C:/Users/yuki0/MyCode/GitHub/hackathon/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240120-18360-pk422f sitelibdir\=./.gem.20240120-18360-pk422f clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
