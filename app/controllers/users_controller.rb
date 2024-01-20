@@ -25,4 +25,10 @@ class UsersController < ApplicationController
       render("users/#{@user.id}/edit")
     end 
   end
+
+  def login_form 
+  end
+
+  def new
+  end
 end
