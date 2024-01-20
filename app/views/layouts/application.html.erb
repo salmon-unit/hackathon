@@ -11,19 +11,8 @@
   </head>
 
   <body>
-
-    <li>
-      <% if current_user.present? %>
-        <%= current_user.email %>
-      <% end %>
-    </li>
-
-    <span>
-      <%= button_to "ログアウト", destroy_user_session_path, method: :delete, data: { turbo: false } %>
-    </span>
-
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= render 'layouts/header' %>
     <%= yield %>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
