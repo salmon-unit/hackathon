@@ -8,11 +8,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">ログイン</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">新規登録</a>
-                    </li>
+                    <% if user_signed_in? %>
+                        <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "nav-link text-white" %>
+                    <% else %>
+                        <%= link_to "ログイン", "/users/sign_in", class: "nav-link text-white" %>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">新規登録</a>
+                        </li>
+                    <% end %>
                 </ul>
             </div>
         </div>
