@@ -1,1 +1,12 @@
  @import "bootstrap";
+
+.navbar {
+    height: 80px;
+    padding-left: 30px;  // 左の空白を増やす
+    padding-right: 30px; // 右の空白を増やす
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
