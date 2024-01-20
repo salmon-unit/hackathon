@@ -1,0 +1,44 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/* 以下是您的自定义样式 */
+/* app/assets/stylesheets/application.css */
+
+/* ... 其他样式 ... */
+
+/* Blue header section with padding and margin */
+.header-section {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff; /* White text */
+    padding: 2rem 0; /* Padding on top and bottom */
+    margin-bottom: 2rem; /* Space below the header */
+  }
+  
+  /* Style for login and sign up buttons */
+  .user-actions .btn {
+    color: #ffffff; /* White text */
+    background-color: #6c757d; /* Bootstrap secondary color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 2rem; /* Padding inside buttons */
+    margin-right: 0.5rem; /* Space between buttons */
+  }
+  
+  /* Remove right margin from the last button */
+  .user-actions .btn:last-child {
+    margin-right: 0;
+  }
+  
+  /* ... 其他样式 ... */
+  
