@@ -1,4 +1,27 @@
- @import "bootstrap";
+@import "bootstrap";
+
+
+.navbar {
+  height: 80px;
+  padding-left: 30px; // 左の空白を増やす
+  padding-right: 30px; // 右の空白を増やす
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.rounded-image {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.rounded-image img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  justify-content: center; /* 水平方向の中央揃え */
+}
 
  .navbar {
      height: 80px;
@@ -55,3 +78,4 @@
     color: #007bff;
   }
   
+

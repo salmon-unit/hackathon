@@ -1,11 +1,17 @@
+
+
 <div class="main user-show">
-    <div class="container">
+    <div class="container text-center">
         <div class="user">
             <h2><%= @user.user_name %></h2>
-            <img src="<%= "/user_images/#{@user.profile_image}" %>">
+            <div class=" d-flex flex-column align-items-center justify-content-center  p-3">
+                <div class="rounded-image">
+                    <img src="<%= "/user_images/#{@user.profile_image}" %>">
+                </div>
+            </div>
             <p><%= @user.introduction %></p>
-            <button type="button" class="btn btn-success" >
-            <%= link_to("編集", "/users/#{@user.id}/edit") %>
+            <button type="button" class="btn btn-success text-decoration-none" >
+                <%= link_to("プロフィール編集", "/users/#{@user.id}/edit", class: "text-white") %>
             </button>
         </div>
     </div>
