@@ -26,3 +26,32 @@
  .content {
      flex: 1 0 auto;
  }
+
+ .thick-border {
+     border-width: 3px !important;
+ }
+
+  /* 可以添加到您的SCSS文件中 */
+
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    font-weight: bold; /* 加粗字体 */
+    font-family: 'Arial'; /* 修改字体 */
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .form-control {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #007bff;
+  }
+  
