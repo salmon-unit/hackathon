@@ -1,14 +1,18 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Books</h1>
+<div class="d-flex justify-content-center">
+  <h1>自分の本棚</h1>
+</div>
 
 <div id="books">
   <% @books.each do |book| %>
     <%= render book %>
     <p>
-      <%= link_to "Show this book", book %>
+    <div class="d-flex justify-content-center">
+      <%= link_to "この本の詳細を見る", book %>
+      </div>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New book", new_book_path %>
+<%= link_to "新規作成", new_book_path %>
