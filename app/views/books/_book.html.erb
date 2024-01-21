@@ -6,7 +6,7 @@
 
   <p>
     <strong>Book image:</strong>
-    <%= book.book_image %>
+    <%= image_tag(book.book_image_url, width: "300px") if book.book_image.present? %>
   </p>
 
   <p>

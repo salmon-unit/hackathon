@@ -18,7 +18,7 @@
 
   <div>
     <%= form.label :book_image, style: "display: block" %>
-    <%= form.text_field :book_image %>
+    <%= form.file_field :book_image %>
   </div>
 
   <div>
@@ -29,7 +29,7 @@
   <div class="field">
     <%= form.label :rate %>
     <%= form.select :rate, options_for_select((0..5).to_a), prompt: 'Select a rating' %>
-</div>
+  </div>
 
   <div>
     <%= form.label :comment, style: "display: block" %>
