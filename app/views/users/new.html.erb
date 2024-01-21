@@ -1,1 +1,15 @@
-<h1>新規登録ページ</h1>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <%= form_tag("/users/create") do %>
+                <p>ユーザー名</p>
+                <input name="user_name" value="<%= @user.user_name %>">
+                <p>メールアドレス</p>
+                <input name="email" value="<%= @user.email %>">
+                <p>パスワード</p>
+                <input type="password" name="user_password" value="<%= @user.user_password %>">
+                <input type="submit" value="新規登録">
+            <% end %>
+        </div>
+    </div>
+</div>
