@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   get "/login" => "users#login_form"
   get "/signup" => "users#new"
+  post "/users/create" => "users#create"
   # Defines the root path route ("/")
   get "/" => "home#top"
   # root "articles#index"

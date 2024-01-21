@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_01_20_110345) do
+ActiveRecord::Schema[7.0].define(version: 2024_01_21_031312) do
   create_table "books", force: :cascade do |t|
     t.integer "book_id"
     t.string "book_title"
@@ -34,6 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_20_110345) do
     t.string "introduction"
     t.string "email"
     t.string "profile_image"
+    t.string "user_name"
   end
 
 end
