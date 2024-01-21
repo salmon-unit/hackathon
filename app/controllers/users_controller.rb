@@ -11,13 +11,13 @@ class UsersController < ApplicationController
     @user = User.new(
       user_name: params[:user_name],
       email: params[:email],
-      profile_image: "default_user.jpg",
+      profile_image: "default_user.png",
       user_password: params[:user_password]
     )
     if @user.save
       session[:user_id] = @user.id
       flash[:notice] = "ユーザー登録が完了しました"
-      redirect_to("/users/#{@user.id}")
+      redirect_to("/books")
     else
       render("users/new")
     end
@@ -49,7 +49,7 @@ class UsersController < ApplicationController
     @user.introduction = params[:introduction]
 
     if params[:profile_image]
-      @user.profile_image = params[:profile_image]
+      @user.profile_image = "#{@user.id}.jpg"
       image = params[:profile_image]
       File.binwrite("public/user_images/#{@user.profile_image}", image.read)
     end 

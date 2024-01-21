@@ -8,6 +8,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <%= link_to("こんにちは！#{@current_user.user_name}", "/users/#{@current_user.id}", class: "nav-link text-white") %>
+                    </li>
+                    <li class="nav-item">
                         <%= link_to("ログイン", "/login", class: "nav-link text-white") %>
                     </li>
                     <li class="nav-item">
