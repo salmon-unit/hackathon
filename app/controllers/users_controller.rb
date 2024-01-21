@@ -1,7 +1,11 @@
 class UsersController < ApplicationController
-  def show
-    @user = User.find_by(id: params[:id])
-  end
+    def new
+        @user = User.new
+    end
+
+    def show
+        @user = User.find_by(id: params[:id])
+    end
 
   def create
     @user = User.new(
@@ -25,7 +29,7 @@ class UsersController < ApplicationController
       p 'ログインしました'
       session[:user_id] = @user.id
       flash[:notice] = "ログインしました"
-      redirect_to("/posts/index")
+      redirect_to("/")
     else
       p 'ログインできませんでした'
       @error_message = "メールアドレスまたはパスワードが間違っています"
@@ -61,6 +65,4 @@ class UsersController < ApplicationController
   def login_form 
   end
 
-  def new
-  end
 end
