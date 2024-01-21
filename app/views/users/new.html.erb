@@ -1,14 +1,22 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <%= form_tag("/users/create") do %>
-                <p>ユーザー名</p>
-                <input name="user_name" value="<%= @user.user_name %>">
-                <p>メールアドレス</p>
-                <input name="email" value="<%= @user.email %>">
-                <p>パスワード</p>
-                <input type="password" name="user_password" value="<%= @user.user_password %>">
-                <input type="submit" value="新規登録">
+            <%= form_tag("/users/create", :html => { :class => 'form-horizontal' }) do %>
+                <div class="form-group">
+                    <label for="user_name" class="control-label">ユーザー名</label>
+                    <input id="user_name" class="form-control" name="user_name" value="<%= @user.user_name %>">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="control-label">メールアドレス</label>
+                    <input id="email" class="form-control" name="email" value="<%= @user.email %>">
+                </div>
+                <div class="form-group">
+                    <label for="user_password" class="control-label">パスワード</label>
+                    <input id="user_password" type="password" class="form-control" name="user_password" value="<%= @user.user_password %>">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="新規登録" class="btn btn-primary">
+                </div>
             <% end %>
         </div>
     </div>

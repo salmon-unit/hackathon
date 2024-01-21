@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 .navbar {
   height: 80px;
   padding-left: 30px; // 左の空白を増やす
@@ -21,3 +22,60 @@ footer {
   display: block;
   justify-content: center; /* 水平方向の中央揃え */
 }
+
+ .navbar {
+     height: 80px;
+     padding-left: 30px; // 左の空白を増やす
+     padding-right: 30px; // 右の空白を増やす
+ }
+
+ .footer {
+     flex-shrink: 0;
+ }
+
+ body,
+ html {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ .wrapper {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .content {
+     flex: 1 0 auto;
+ }
+
+ .thick-border {
+     border-width: 3px !important;
+ }
+
+  /* 可以添加到您的SCSS文件中 */
+
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    font-weight: bold; /* 加粗字体 */
+    font-family: 'Arial'; /* 修改字体 */
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .form-control {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #007bff;
+  }
+  
+
