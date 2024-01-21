@@ -1,12 +1,28 @@
  @import "bootstrap";
 
-.navbar {
-    height: 80px;
-    padding-left: 30px;  // 左の空白を増やす
-    padding-right: 30px; // 右の空白を増やす
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+ .navbar {
+     height: 80px;
+     padding-left: 30px; // 左の空白を増やす
+     padding-right: 30px; // 右の空白を増やす
+ }
+
+ .footer {
+     flex-shrink: 0;
+ }
+
+ body,
+ html {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ .wrapper {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .content {
+     flex: 1 0 auto;
+ }
